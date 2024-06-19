@@ -32,11 +32,13 @@ cap.set(10, 100) # ID number for brightness is 10
 
 return cap 
 
+
 The create_camera function initializes a connection to an RTSP camera stream using OpenCV.
 
 It constructs the RTSP URL from given credentials and channel information, then opens the stream with cv2.VideoCapture using the FFMPEG backend.
 
 The function sets the camera's width, height, and brightness, returning the configured video capture object.
+
 
 def read_camera ():
 
@@ -57,6 +59,7 @@ success, current_screen = cam4.read()
 Main_screen[cam_height2, cam_width 2, :3] = current_screen
 
 return (Main_screen)
+
 
 The read_camera function captures frames from four different cameras (cam1, cam2, cam3, cam4) and arranges them into a single Main_screen matrix.
 
