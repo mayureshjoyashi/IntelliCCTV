@@ -20,4 +20,4 @@ It implements a motion detection system on a Raspberry Pi using OpenCV, leveragi
 
 The system differentiates motion by comparing consecutive grayscale frames, processing the differences to identify significant changes. 
 
-It identifies the specific camera where motion occurs and triggers an alarm if continuous activity is detected, while also monitoring and displaying the Pi's CPU temperature and load to ensure stable operation.
+It identifies the specific camera where crimes occurs and triggers an alarm if continuous activity is detected, while also monitoring and displaying the Pi's CPU temperature and load to ensure stable operation.
